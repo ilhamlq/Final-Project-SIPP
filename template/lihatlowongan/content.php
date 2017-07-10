@@ -9,7 +9,7 @@
 		    <div class="thumbnail">
 		      <img src="img/regis.jpg" alt="">
 		      <div class="caption">
-		        <h3>Back-End Developer</h3>
+		        <h3>Back-End Developer</h3> 
 		        <p>Status:
 		        <br>- Dibuka
 		        <br>- Ditutup 28-01-2016
