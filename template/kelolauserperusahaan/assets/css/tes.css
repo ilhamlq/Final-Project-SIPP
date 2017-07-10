@@ -1,0 +1,515 @@
+* {
+	margin: 0;
+}
+#atas {
+	background-color: #162e1b ;
+	height: 50px; 
+}
+#atas p, #home a {
+	color: #ded4db;
+	margin-top: 15px ;
+	margin-left: 10% ;
+	float: left ;
+	margin-top: 0px;
+}
+#atas a {
+	color: #ded4db !important;
+	margin-top: 15px ;
+	margin-right: 5% ;
+	float: right ;
+}
+#navigasi {
+	background-color: #08120a ;
+	height: 120px ;
+	width: 100% ;
+}
+#navigasi img {
+	height: 50px ;
+	width: 50px ;
+	float: left ;
+	margin-left: 10% ;
+	margin-top: 30px ;
+}
+#navigasi h1 {
+	float: right ;
+	color: #ded4db ;
+	float: right ;
+	margin-right: 54% ;
+}
+#isi {
+	height: 500px;
+	background-color: #e7e4e6;
+	padding-top: 10px;
+}
+#login {
+	border-left: medium solid #ded4db;
+}
+#regis h1{
+	color: black;
+	margin-left: 20%;
+}
+#regis h3 {
+	color: black;
+	margin-left: 20%;
+	color: #101010;
+	font-weight: lighter;
+}
+#tombol-regis {
+	margin-left: 20%;
+}
+#footer {
+	height: 70px;
+	background-color: #162e1b;
+	text-align: center;
+	color: #ded4db;
+	padding-top: 15px;
+}
+#isi-regis {
+	margin: 0;
+	padding: 0;
+	background-color: #e7e4e6;
+	height: 650px;
+}
+#form {
+	margin-top: 3%;
+	border-top:  medium solid #ded4db;
+	height: 400px;
+	margin-left: 40%;
+	width:300px; 
+	background-blend-mode: screen !important;
+}
+#daftar {
+	width: 100%;
+	height: -500px;
+	background-color:  #e7e4e6;
+	padding-top: 3%;
+}
+#daftar h3{
+	color: black;
+}
+#daftar h1 {
+	text-align: center;
+	margin-top: 0;
+}
+#loginadmin {
+	margin: 0;
+	padding: 0;
+	background-color: #e7e4e6;
+	height: 450px;
+}
+h3{
+	margin-left: 40%;
+}
+#selesailogin {
+	margin: 0;
+	padding: 0;
+	background-color: #e7e4e6;
+	height: 500px;
+}
+#selesailogin h1{
+	margin-left: 25%;
+}
+#selesailogin h2 {
+	text-align: center;
+}
+#selesailogin p {
+	text-align: center;
+}
+#selesailogin img{
+	margin-top: 20px;
+	margin-left: 42%;
+}
+#berandaceo {
+	margin-top: 20px;
+	height: 450px;
+}
+#berandaceo h1{
+	margin-left: 23%;
+}
+#berandaceo h3 {
+	
+}
+#tombol {
+	margin-left: 48%;
+}
+#admin {
+	height: 450px;
+}
+#side-kiri-admin {
+	background-color: #e7e4e6;
+	height: 450px;
+}
+.nav {
+	margin-top: 10px;
+}
+#langkah {
+	min-height: 450px;
+	background-color: #e7e4e6;
+}
+#langkah h1 {
+	border-bottom:  2px solid black;
+}
+#halamanadmin {
+	height: 500px;
+}
+#side-kiri-admin-halamanadmin {
+	height: 500px;
+	background-color: #e7e4e6;
+}
+#tambah-kanan {
+	float: right;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+#userperusahaan h1 {
+	border-bottom: 2px solid black;
+	display: inline-block;
+}
+#userperusahaan p {
+	color: white;
+}
+#tambahuser h1 {
+	border-bottom: 2px solid black;
+	text-align: center;
+}
+#admin-tambah {
+	height: 800px;
+}
+#form-tambah {
+	width:300px; 
+	margin-left: 35%;
+}
+#side-kiri-admin-tambah {
+	height: 800px;
+	background-color: #e7e4e6;
+}
+#admin-edit {
+	height: 800px;
+}
+#side-kiri-admin-edit {
+	height: 800px;
+	background-color: #e7e4e6;
+}
+#edituser h1 {
+	border-bottom: 2px solid black;
+}
+#admin-detailuser{
+	height: 650px;
+}
+#side-kiri-admin-detailuser {
+	height: 650px;
+	background-color: #e7e4e6;
+}
+#tabel-nilai {
+	margin-top: 10px;
+}
+#detailuser h1 {
+	border-bottom: 2px solid black;
+}
+#admin-detail {
+	height: 500px;
+}
+#side-kiri-admin-detail {
+	background-color: #e7e4e6;
+	height: 500px;
+}
+#admin-lowongan {
+	height: 500px;
+}
+#admin-lowongan h1{
+	border-bottom: 2px solid black;
+	display: inline-block;
+}
+#tambah-lowongan-kanan {
+	float: right;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+#side-kiri-admin-lowongan{
+	height: 500px;
+	background-color: #e7e4e6;
+}
+#tabel-lowongan {
+	margin-top: 10px;
+}
+#lowongan-tambah {
+	height: 900px;
+}
+#side-kiri-admin-lowongan-tambah {
+	height: 900px;
+	background-color: #e7e4e6;
+}
+#tambah-user {
+	height: 800px;
+}
+#side-kiri-admin-tambah-user {
+	height: 800px;
+	background-color: #e7e4e6;
+}
+#lowongantambahuser h1 {
+	border-bottom: 2px solid black;
+	text-align: center;
+}
+#lowongan-tambah-form {
+	margin-left: 0%;
+}
+#lowongan-edit {
+	height: 900px;
+}
+#side-kiri-admin-lowongan-edit {
+	height: 900px;
+	background-color: #e7e4e6;
+}
+#lowonganedituser h1 {
+	border-bottom: 2px solid black;
+	text-align: center;
+}
+#lowongan-edit-form {
+	width:0%;
+}
+#detail-lowongan h1 {
+	border-bottom: 2px solid black;
+}
+#lowongan-detail {
+	height: 800px;
+}
+#side-kiri-admin-detail-lowongan {
+	background-color: #e7e4e6;
+	height: 800px;
+}
+#penilaian h1 {
+	border-bottom: 2px solid black;
+}
+#admin-penilaian {
+	height: 500px;
+}
+#side-kiri-admin-penilaian {
+	height: 500px;
+	background-color: #e7e4e6;
+}
+#prosesnilai h1 {
+	border-bottom: 2px solid black;
+}
+#admin-prosesnilai {
+	height: 500px;
+}
+#side-kiri-admin-prosesnilai {
+	height: 500px;
+	background-color: #e7e4e6;
+}
+#isinilai {
+	height:  500px;
+}
+#side-kiri-admin-isinilai {
+	height: 500px;
+	background-color: #e7e4e6;
+}
+#isinilai-form {
+	width:300px;
+	margin-left: 35%;
+}
+#isinilai h1 {
+	text-align: center;
+	border-bottom: 2px solid black;
+}
+#editnilai {
+	height:  500px;
+}
+#side-kiri-admin-editnilai {
+	height: 500px;
+	background-color: #e7e4e6;
+}
+#editnilaiuser h1 {
+	text-align: center;
+	border-bottom: 2px solid black;
+}
+#editnilai-form {
+	width:300px;
+	margin-left: 35%;
+}
+#persyaratan {
+	height: 500px;
+}
+#persyaratan h1 {
+	border-bottom: 2px solid black;
+}
+#berkas h1{
+	border-bottom: 2px solid black;
+	text-align: center;
+}
+#form-berkas {
+	margin-left: 30%;
+}
+#berkas a{
+	margin-left: 42%;
+}
+#selesailamar {
+	margin: 0;
+	padding: 0;
+	background-color: #e7e4e6;
+	height: 500px;
+}
+#selesailamar h2 {
+	text-align: center;
+}
+#selesailamar img{
+	margin-top: 20px;
+	margin-left: 42%;
+}
+#data-pelamar {
+	height: 500px;
+}
+#side-kiri-data-pelamar {
+	height: 500px;
+	background-color: #e7e4e6;
+}
+#daftar-pelamar h1{
+	border-bottom: 2px solid black;
+}
+#isijadwal {
+	height:  500px;
+}
+#side-kiri-admin-isijadwal {
+	height: 500px;
+	background-color: #e7e4e6;
+}
+#isijadwal-form {
+	width:300px;
+	margin-left: 35%;
+}
+#isijadwal h1 {
+	text-align: center;
+	border-bottom: 2px solid black;
+}
+#editjadwal {
+	height:  500px;
+}
+#side-kiri-admin-edit-jadwal {
+	height: 500px;
+	background-color: #e7e4e6;
+}
+#editjadwal-form {
+	width:300px;
+	margin-left: 35%;
+}
+#editjadwal h1 {
+	text-align: center;
+	border-bottom: 2px solid black;
+}
+#jadwal-pelamar{
+	height: 450px;
+}
+#side-kiri-jadwal-pelamar{
+	height: 450px;
+	background-color: #e7e4e6;
+}
+#jadwal-pelamar-tabel h1 {
+	border-bottom: 2px solid black;
+}
+#status-pelamar{
+	height: 450px;
+}
+#side-kiri-status-pelamar{
+	height: 450px;
+	background-color: #e7e4e6;
+}
+#status-pelamar-tabel h1 {
+	border-bottom: 2px solid black;
+}
+#status-pelamar-tabel h3 {
+	margin-left: 0px;
+}
+#berkas-pelamar{
+	height: 3000px;
+}
+#side-kiri-berkas-pelamar{
+	height: 3000px;
+	background-color: #e7e4e6;
+}
+#side-kiri-kanan-berkas h1 {
+	border-bottom: 2px solid black;
+}
+#berkas-pelamar-hrd{
+	height: 3000px;
+}
+#side-kiri-berkas-pelamar-hrd{
+	height: 3000px;
+	background-color: #e7e4e6;
+}
+#side-kiri-kanan-berkas-hrd h1 {
+	border-bottom: 2px solid black;
+}
+#berkas-pelamar-edit{
+	height: 1300px;
+}
+#side-kiri-berkas-pelamar-edit{
+	height: 1300px;
+	background-color: #e7e4e6;
+}
+#side-kiri-kanan-berkas-edit h1 {
+	border-bottom: 2px solid black;
+}
+#side-kiri-kanan-berkas-edit a {
+	margin-left: 36%;
+}
+#form-edit-berkas {
+	width: 500px;
+	margin-left: 27%;
+}
+#form-edit-berkas button{
+	margin-left: 35%;
+}
+#halamanceoadmin {
+	height: 500px;
+}
+#side-kiri-ceo-admin {
+	height: 500px;
+	background-color: #e7e4e6;
+}
+#side-kiri-kanan-ceo-admin h1{
+	border-bottom: 2px solid black;
+}
+#laporanceoadmin {
+	height: 630px;
+}
+#side-kiri-laporan-ceo-admin {
+	height: 630px;
+	background-color: #e7e4e6;
+}
+#side-kiri-kanan-laporan-ceo-admin h1 {
+	border-bottom: 2px solid black;
+}
+#laporankelulusan {
+	height: 500px;
+}
+#side-kiri-laporan-kelulusan {
+	height: 500px;
+	background-color: #e7e4e6;
+}
+#side-kiri-kanan-laporan-kelulusan h1 {
+	border-bottom: 2px solid black;
+}
+#datapelamar {
+	height: 500px;
+}
+#side-kiri-admin-datapelamarbaru {
+	height: 500px;
+	background-color: #e7e4e6;
+}
+#datapelamarbaru h1{
+	border-bottom: 2px solid black;
+}
+#admin-detailuserperusahaan {
+	height: 500px;
+}
+#side-kiri-admin-detailuserperusahaan{
+	height: 500px;
+	background-color: #e7e4e6;
+}
+#detailuserperusahaan h1{
+	border-bottom: 2px solid black;
+}
+#form-wilayah {
+	width: 300px;
+	margin-left: 30%;
+}
