@@ -1,0 +1,2 @@
+1. ahalamanadmin.html merupakan index untuk pengguna (Admin).
+2. Index.html merupakan index untuk pengguna. 

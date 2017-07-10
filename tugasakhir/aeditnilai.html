@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/tes.css">
+	<title>
+		SISTEM INFORMASI PENERIMAAN PEGAWAI
+	</title>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row"> 
+			<div class="col-md-12" id="atas">
+				<p><a href="ahalamanadmin.html">Beranda</a></p>
+				<a href="halamanloginhrd.html"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Log Out</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12" id="navigasi">
+				<img src="img/untan.png">
+				<h1>SISTEM INFORMASI
+				<br>PENERIMAAN PEGAWAI</h1>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid" id="edit-nilai">
+		<div class="row">
+			<div class="col-md-2" id="side-kiri-admin-editnilai">
+				<ul class="nav nav-pills nav-stacked" role="tablist">
+				     <li class="active"><a href="ahalamanadmin.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> User Perusahaan</a></li>
+				    <ul class="dropdown-menu" role="menu">                      
+      				</ul>
+				    <li><a href="adatapelamar.html "><span class="glyphicon glyphicon-file" aria-hidden="true"></span> Data Pelamar</a></li>
+				    <li><a href="alowongan.html"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Daftar Lowongan</a></li>
+				     <li><a href="apenilaian.html"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Penilaian</a></li>
+				</ul>				
+			</div>
+
+				<div class="col-md-10" id="editnilaiuser">
+					<h1>Silahkan edit nilai user di bawah ini</h1>
+					<form id="editnilai-form" action="aprosesnilai.html">
+ 						<div class="form-group">
+   							<label for="hrdid">ID Pelamar:</label>
+   							<input type="text" class="form-control" value="1111" id="hrdid">
+ 					 	</div>
+ 					 	<div class="form-group">
+   							<label for="lowid">Nama Pelamar:</label>
+   							<input type="text" class="form-control" value="Budi Redo" id="lowid">
+ 					 	</div>
+ 					 	<div class="form-group">
+   							<label for="jenis">Nilai Psikotes:</label>
+   							<input type="text" value="80" class="form-control" id="jenis">
+ 					 	</div>
+ 					 	<div class="form-group">
+ 							<label for="jabatan">Nilai Wawancara:</label>
+    						<input type="text" value="0" class="form-control" id="jabatan">
+ 						</div>
+ 					 	<div class="form-group">
+   							<label for="status">Hasil Kelulusan:</label>
+							<select class="form-control" id="status">
+							    <option>-</option>
+							     <option>Lulus</option>
+							    <option>Tidak Lulus</option>
+							</select>
+ 					 	</div>
+						<a href="aprosesnilai.html" class="btn btn-success">Kirim</a>
+					</form>
+
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid" id="footer"> 
+		<div class="col-md-12">
+			&copy; Kelompok 13 
+			<p>Jln. Prof. Dr. H. Hadari Nawawi | Phone: +6255555555, Fax: (0256781237</p>
+		</div>
+	</div>
+
+</body>
+</html>
