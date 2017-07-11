@@ -2,5 +2,5 @@
 
 include 'view/RegisterUI.php';
 $brd = new RegisterUI();
-$brd->setRegister();
+$brd->setRegister();  
  ?>

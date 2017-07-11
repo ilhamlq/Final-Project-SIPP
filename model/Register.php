@@ -1,5 +1,4 @@
-<?php 
-
+<?php     
 /**
 * 
 */
@@ -30,7 +29,7 @@ class Pengguna extends Model
 		   $stmt->bindparam(":tanggal_lahir",$tanggal_lahir);
 		   $stmt->bindparam(":jenis_kelamin",$jenis_kelamin);
 		   $stmt->bindparam(":no_hp",$no_hp);
-		   $stmt->bindparam(":alamat",$alamat);
+		   $stmt->bindparam(":alamat",$alamat);          
 		   $stmt->execute();
 		   return true;
 		  }
