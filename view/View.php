@@ -18,10 +18,10 @@ class View
 		
 	}
 
-	protected function end()
-	{
-		include 'template/footer.php';
-	}
+	// protected function end()
+	// {
+	// 	include 'template/footer.php';
+	// }
 	
 }
 

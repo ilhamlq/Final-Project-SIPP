@@ -2,6 +2,6 @@
 
 include 'view/RegisterUI.php';
 $brd = new RegisterUI();
-// $brd->setRegister();  
-$brd->tampilRegister();
+$brd ->inputRegister();
+
  ?>

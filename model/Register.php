@@ -3,7 +3,7 @@
 * 
 */
 
-include_once 'model.php';
+include_once 'Model.php';
 class Pengguna extends Model
 {
 	public $id_pengguna;
@@ -16,12 +16,11 @@ class Pengguna extends Model
 	public $no_hp;
 	public $alamat;
 	
-	public function setPengguna($id_pengguna,$username, $password, $nama_lengkap, $email, $tanggal_lahir, $jenis_kelamin, $no_hp,$alamat){
+	public function inputPengguna($username, $password, $nama_lengkap, $email, $tanggal_lahir, $jenis_kelamin, $no_hp,$alamat){
 		try
 		  {
-		   $stmt = $this->db->prepare("INSERT INTO tugasakhirsipp(id_pengguna,username, password, nama_lengkap, email, tanggal_lahir, jenis_kelamin, no_hp,alamat) VALUES(:id_pengguna,:username, :password, :nama_lengkap, :email, :tanggal_lahir, :jenis_kelamin, :no_hp,alamat)");
+		   $stmt = $this->db->prepare("INSERT INTO pengguna(username, password, nama_lengkap, email, tanggal_lahir, jenis_kelamin, no_hp,alamat) VALUES(:username, :password, :nama_lengkap, :email, :tanggal_lahir, :jenis_kelamin, :no_hp,:alamat)");
 
-		   $stmt->bindparam(":id_pengguna", $id_pengguna);
 		   $stmt->bindparam(":username",$username);
 		   $stmt->bindparam(":password",$password);
 		   $stmt->bindparam(":nama_lengkap",$nama_lengkap);
